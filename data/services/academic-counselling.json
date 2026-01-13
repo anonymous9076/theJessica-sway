@@ -1,0 +1,29 @@
+{
+    "title": "Academic Counselling",
+    "image": "https://i.pinimg.com/736x/eb/c8/5e/ebc85e068d26f7fde63bac88adac8a6c.jpg",
+    "tagline": "From Confusion to Clarity in Your Academic Journey",
+    "description": "I support students at every academic stage by helping them choose the right subjects, plan higher education pathways, and build effective study habits. My approach focuses on clarity, confidence, and consistent growth.",
+    "workWithMe": "Services include subject selection, academic planning, exam strategy, study skills coaching, college selection (India & abroad), SOP reviews, and parent consultations. Every session is tailored to the student’s unique needs.",
+    "faqs": [
+        {
+            "title": "Is academic counselling only for struggling students?",
+            "content": "No. It’s also for high-achievers who want better planning and clarity."
+        },
+        {
+            "title": "What do we cover in a typical session?",
+            "content": "Subject selection, career exploration, time management, stress management, college guidance, and accountability."
+        },
+        {
+            "title": "Do you support international education pathways?",
+            "content": "Yes. I guide students for both Indian and international universities."
+        },
+        {
+            "title": "Do you involve parents?",
+            "content": "Yes, parent consultations are offered where appropriate."
+        },
+        {
+            "title": "Will I be charged for it?",
+            "content": "The Discovery Call is completely free."
+        }
+    ]
+}

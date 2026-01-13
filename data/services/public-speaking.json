@@ -1,0 +1,29 @@
+{
+    "title": "Public Speaking",
+    "image": "/Images/public-speaking.jpg",
+    "tagline": "Master Public Speaking & Build Unshakable Confidence",
+    "description": "Public speaking is about expressing your thoughts with clarity, conviction, and confidence. I help you find your voice, structure your message, and speak with impact for presentations, interviews, meetings, or stage appearances.",
+    "workWithMe": "Beyond speaking skills, we also focus on productivity, time management, and mindset. With personalized coaching and gentle accountability, you’ll build confidence, presence, and consistency in all areas of life.",
+    "faqs": [
+        {
+            "title": "What will I learn in your public speaking sessions?",
+            "content": "You’ll learn clarity of speech, body language, nervousness management, audience connection, and confident presence."
+        },
+        {
+            "title": "Do you offer one-on-one sessions?",
+            "content": "Yes. All sessions are personalized 1:1 and available online or in-person."
+        },
+        {
+            "title": "How long will it take to see results?",
+            "content": "Most clients notice improvements within a few sessions with consistent practice."
+        },
+        {
+            "title": "Will I be charged for it?",
+            "content": "The Discovery Call is free and lasts 15 minutes."
+        },
+        {
+            "title": "What happens after the discovery call?",
+            "content": "You’ll receive a booking link to choose your session and confirm your slot if you wish to continue."
+        }
+    ]
+}
