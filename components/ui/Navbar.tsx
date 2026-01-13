@@ -11,6 +11,8 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
+import { servicesData } from '@/data/services';
+
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -20,14 +22,6 @@ const Navbar = () => {
         { name: 'Home', href: '/' },
         { name: 'About', href: '/about' },
         { name: 'Contact', href: '/contact' },
-    ];
-
-    const services = [
-        "Career Guidance",
-        "Public Speaking",
-        "Academic Counselling",
-        "Global Education",
-        "Astrology Guidance"
     ];
 
     return (
@@ -57,10 +51,12 @@ const Navbar = () => {
                             </button>
                         </DropdownMenuTrigger>
                         <DropdownMenuContent className="w-[220px] p-2 bg-white shadow-xl rounded-xl border border-gray-100">
-                            {services.map((service) => (
-                                <DropdownMenuItem key={service} className="cursor-pointer hover:bg-primary/5 hover:text-primary focus:bg-primary/5 focus:text-primary rounded-lg py-2 transition-colors">
-                                    {service}
-                                </DropdownMenuItem>
+                            {servicesData.map((service) => (
+                                <Link key={service.slug} href={`/services/${service.slug}`}>
+                                    <DropdownMenuItem className="cursor-pointer hover:bg-primary/5 hover:text-primary focus:bg-primary/5 focus:text-primary rounded-lg py-2 transition-colors">
+                                        {service.title}
+                                    </DropdownMenuItem>
+                                </Link>
                             ))}
                         </DropdownMenuContent>
                     </DropdownMenu>
@@ -99,14 +95,14 @@ const Navbar = () => {
                     <div className='py-2'>
                         <span className='text-sm font-semibold text-black uppercase tracking-wider mb-3 block'>Our Services</span>
                         <div className='grid grid-cols-1 gap-3 pl-2'>
-                            {services.map((service) => (
+                            {servicesData.map((service) => (
                                 <Link
-                                    key={service}
-                                    href={`/services/${service.toLowerCase().replace(/ /g, '-')}`}
+                                    key={service.slug}
+                                    href={`/services/${service.slug}`}
                                     onClick={() => setIsOpen(false)}
                                     className="text-gray-600 hover:text-primary transition-colors"
                                 >
-                                    {service}
+                                    {service.title}
                                 </Link>
                             ))}
                         </div>

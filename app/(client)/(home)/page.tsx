@@ -5,6 +5,8 @@ import StatSection from '@/components/sections/StatSection'
 import ServiceSection from '@/components/sections/ServiceSection'
 import QuoteSection from '@/components/sections/QuoteSection'
 import TestimonialSection from '@/components/sections/TestimonialSection'
+import FAQSection from '@/components/sections/FAQSection'
+import { faqsData } from '@/data/faqs'
 
 const page = () => {
   return (
@@ -14,6 +16,7 @@ const page = () => {
 
       <QuoteSection />
       <StatSection />
+      <FAQSection items={faqsData} />
       <TestimonialSection />
       <NewsLetter></NewsLetter>
     </div>
