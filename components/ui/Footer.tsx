@@ -4,16 +4,15 @@ import Image from 'next/image';
 
 const Footer = () => {
   const services = [
-    { name: 'Career Guidance', href: '#' },
-    { name: 'Public Speaking', href: '#' },
-    { name: 'Academic Counselling', href: '#' },
-    { name: 'Global Education', href: '#' },
-    { name: 'Astrology Guidance', href: '#' },
+    { name: 'Career Guidance', href: '/services/career-guidance' },
+    { name: 'Public Speaking', href: '/services/public-speaking' },
+    { name: 'Academic Counselling', href: '/services/academic-counselling' },
+    { name: 'Global Education', href: '/services/global-education' },
+    { name: 'Astrology Guidance', href: '/services/astrology-guidance' },
   ];
 
   const quickLinks = [
     { name: 'Home', href: '/' },
-    { name: 'Services', href: '#' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
   ];

@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import FAQSection from '@/components/sections/FAQSection';
 import fs from 'fs';
 import path from 'path';
+import Link from 'next/link';
 
 interface ServiceData {
     title: string;
@@ -97,9 +98,11 @@ export default async function ServicePage({ params }: { params: { slug: string }
                                 </div>
 
                                 <div className="pt-8">
+                                    <Link href="/contact">
                                     <button className="bg-primary text-white px-10 py-5 rounded-2xl font-semibold shadow-lg shadow-primary/20 hover:-translate-y-1 transition-all active:scale-95">
                                         Book a Discovery Call
                                     </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>

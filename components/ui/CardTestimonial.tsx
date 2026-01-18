@@ -1,5 +1,5 @@
 import React from 'react';
-import { Quote } from 'lucide-react';
+import { Quote, User } from 'lucide-react';
 import Image from 'next/image';
 
 interface CardTestimonialProps {
@@ -24,16 +24,13 @@ const CardTestimonial: React.FC<CardTestimonialProps> = ({ content, name, role, 
 
             {/* Author Footer */}
             <div className="flex items-center gap-4 pt-4 border-t border-gray-50">
-                {image && (
-                    <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-primary/10">
-                        <Image
-                            src={image}
-                            alt={name}
-                            fill
-                            className="object-cover"
-                        />
-                    </div>
-                )}
+                <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-primary/10 shrink-0">
+                
+                        <div className="w-full h-full bg-primary/5 flex items-center justify-center text-primary/40 group-hover:bg-primary group-hover:text-white transition-colors duration-500">
+                            <User className="w-6 h-6" />
+                        </div>
+                   
+                </div>
                 <div className="flex flex-col">
                     <h4 className="text-black font-semibold font-playfair tracking-wide leading-tight">
                         {name}

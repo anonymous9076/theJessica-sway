@@ -50,12 +50,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ items, title = "FAQ (Frequently
                     </Accordion>
                 </div>
 
-                {/* Decorative Accent */}
-                <div className="mt-16 text-center">
-                    <p className="text-gray-400 font-light italic">
-                        Still have questions? <span className="text-primary font-medium cursor-pointer hover:underline">Reach out to me directly</span>.
-                    </p>
-                </div>
+             
             </div>
         </section>
     );

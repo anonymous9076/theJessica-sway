@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  transpilePackages: ['firebase', '@firebase/app', '@firebase/firestore', '@firebase/auth', '@firebase/util', '@firebase/component', '@firebase/logger'],
 };
 
 export default withFlowbiteReact(nextConfig);

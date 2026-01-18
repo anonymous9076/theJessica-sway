@@ -6,21 +6,21 @@ import { servicesData } from '@/data/services';
 
 const ServiceSection = () => {
     return (
-        <section className="w-full py-20 md:py-32 bg-white">
+        <section id="services" className="w-full py-20 md:py-32 bg-white">
             <div className="max-w-7xl mx-auto px-6 md:px-12">
                 {/* Section Header */}
                 <div className="mb-16 md:mb-24 flex flex-col md:flex-row md:items-end justify-between gap-8 text-center md:text-left">
-                    <div className="max-w-2xl">
+                    <div className="max-w-3xl">
                         <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
                             <div className="h-[2px] w-12 bg-primary rounded-full"></div>
-                            <span className="text-primary font-medium tracking-[0.2em] uppercase text-sm">Our Expertise</span>
+                            <span className="text-primary font-medium tracking-[0.2em] uppercase text-sm">Below our expertise</span>
                         </div>
                         <h2 className="text-4xl md:text-6xl font-medium text-black font-playfair leading-tight">
-                            Bespoke Services for <br />
-                            <span className="italic text-gray-400">Your Unique Path</span>
+                            Personalised support crafted to align <br />
+                            <span className="italic text-gray-400">with who you are and where you’re headed.</span>
                         </h2>
                     </div>
-                   
+
                 </div>
 
                 {/* Services Grid */}

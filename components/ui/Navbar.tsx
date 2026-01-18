@@ -28,14 +28,14 @@ const Navbar = () => {
         <nav className='bg-white w-full sticky top-0 z-50 border-b border-gray-100'>
             <div className='max-w-7xl mx-auto flex items-center justify-between px-4 md:px-8 h-20'>
                 {/* Logo */}
-                <div className='shrink-0'>
-                    <Link href='/'>
+                <div className='shrink-0 w-20'>
+                    <Link href='/' className=' w-fit'>
                         <Image
                             src='/Images/logo.png'
                             alt='logo'
                             width={120}
                             height={60}
-                            className="object-contain"
+                            className="object-cover w-full h-full "
                         />
                     </Link>
                 </div>
