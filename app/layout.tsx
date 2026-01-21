@@ -36,7 +36,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Jessica's Way",
+  title: "TheJessicaWay",
   description: "Personalized guidance and coaching to unlock your full potential.",
   icons: {
     icon: "/logo.ico",
