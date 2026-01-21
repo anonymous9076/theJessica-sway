@@ -13,7 +13,7 @@ const ServiceSection = () => {
                     <div className="max-w-3xl">
                         <div className="flex items-center justify-center md:justify-start gap-4 mb-6">
                             <div className="h-[2px] w-12 bg-primary rounded-full"></div>
-                            <span className="text-primary font-medium tracking-[0.2em] uppercase text-sm">Below our expertise</span>
+                            <span className="text-primary font-medium tracking-[0.2em] uppercase text-sm">Expertise You Can Trust</span>
                         </div>
                         <h2 className="text-4xl md:text-6xl font-medium text-black font-playfair leading-tight">
                             Personalised support crafted to align <br />
